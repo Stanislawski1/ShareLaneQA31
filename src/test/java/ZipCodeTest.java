@@ -22,7 +22,7 @@ public class ZipCodeTest {
      */
 
     @Test
-    public void test() {
+    public void testOne() {
 
         WebDriver browser = new ChromeDriver();
         browser.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -46,4 +46,5 @@ public class ZipCodeTest {
         Assert.assertEquals(signUp, "Sign Up");
         browser.quit();
     }
+
 }
